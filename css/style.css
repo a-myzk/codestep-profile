@@ -95,6 +95,15 @@ li {
   margin-right: 30px;
 }
 
+/* Bicycle */
+#bicycle ul {
+  display: flex;
+  justify-content: space-between;
+}
+#bicycle li {
+  width: 32%;
+}
+
 @media screen and (max-width: 600px) {
   /* Mainvisual */
   #mainvisual img {
@@ -106,5 +115,13 @@ li {
   }
   #about img {
     margin-right: 0;
+  }
+  /* Bicycle */
+  #bicycle ul {
+    flex-direction: column;
+  }
+  #bicycle li {
+    width: 100%;
+    margin-bottom: 30px;
   }
 }
